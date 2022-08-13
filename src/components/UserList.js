@@ -4,8 +4,6 @@ import React, { useState, useEffect } from 'react'
 //COMPONENTS
 import SingleUser from './SingleUser';
 
-// https://randomuser.me/api/?results=6
-
 const UserList = () => {
 
     const [users, setUsers] = useState([]);
