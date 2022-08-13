@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  color: white;
+}
+
+.header h2{
+  font-size: 1rem;
+}
+
+.user-list ul{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.user-list li{
+  list-style: none;
+}
+
+.user-card{
+  display: flex;
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #E9E4F0, #D3CCE3);
+  background: linear-gradient(to top, #E9E4F0, #D3CCE3);
+  width: 420px;
+  padding: 15px;
+  margin: 15px 50px;
+  border-radius: 20px;
+}
+
+.user-card img{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.user-info{
+  margin: 20px 15px;
+}
+
+.user-info h5{
+  margin: 8px 0;
+}
+
+.user-info h3{
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 5px;
+}
+
+@media (min-width: 640px) {
+  .header h2{
+    font-size: 1.4rem;
+  }
+
+  .user-card{
+    width: 500px;
+  }
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  color: white;
+  margin-top: 10px;
+}
